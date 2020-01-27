@@ -1,0 +1,6 @@
+---
+# vars file for user_add
+  uname: suresh
+  ugroup: ansible
+  upass: sk
+  uhome: /home/suresh

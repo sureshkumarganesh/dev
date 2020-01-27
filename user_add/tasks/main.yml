@@ -1,0 +1,9 @@
+---
+# tasks file for user_add
+- name: creating user
+  user:
+    name: "{{ uname }}"
+    group: "{{ ugroup }}"
+    password: "{{ upass }}" # | password_hash('sha512')}}"
+    home: "{{uhome}}"
+    state: present
