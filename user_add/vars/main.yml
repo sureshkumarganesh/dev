@@ -1,6 +1,6 @@
 ---
 # vars file for user_add
   uname: suresh
-  ugroup: ansible
+  ugroup: root
   upass: sk
   uhome: /home/suresh
