@@ -1,6 +1,6 @@
 ---
 # vars file for user_del
  uname: suresh
-  ugroup: root
-  upass: sk
-  uhome: /home/suresh
+ ugroup: root
+ upass: sk
+ uhome: /home/suresh
