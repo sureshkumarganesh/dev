@@ -1,6 +1,6 @@
 ---
 - name: this will call the user add role
-  hosts: localhost
+  hosts: all
   become: true
   roles:
     - user_add
