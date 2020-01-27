@@ -1,7 +1,7 @@
 ---
 - hosts: localhost
   tasks:
-  - name: create a file '/home/ansible/testfilegit.txt' with content 'helloworld'
+  - name: create a file '/home/testfilegit.txt' with content 'helloworld'
     copy:
       content: "hello world \n"
-      dest: /home/ansible/testfilegit.txt
+      dest: /home/testfilegit.txt
