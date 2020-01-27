@@ -1,0 +1,11 @@
+
+---
+- hosts: localhost
+  tasks:
+  - name: create a  blank file
+    file:
+      path: /home/centos/sk.txt
+      content: This is playbook form server
+      state: touch
+  - debug:
+      msg:  Playbook From Git
