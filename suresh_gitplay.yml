@@ -1,7 +1,11 @@
 ---
 - hosts: localhost
+  become: true
   tasks:
-  - name: create a file '/home/testfilegit.txt' with content 'helloworld'
-    copy:
-      content: "hello world \n"
-      dest: /home/testfilegit.txt
+  - name: create a directory
+    file:
+      path: /home/git_directory
+      state: directory
+  - debug:
+      msg: directory is created in  a specified folder
+...
