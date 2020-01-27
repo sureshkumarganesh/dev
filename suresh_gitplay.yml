@@ -6,6 +6,4 @@
     file:
       path: /home/git_directory
       state: directory
-  - debug:
-      msg: directory is created in  a specified folder
 ...
